@@ -1,0 +1,53 @@
+
+.navbar-custom {
+    background: transparent; }
+
+.navbar.scrolled{
+        background: #5F8487;
+        transition: background 500ms;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.42)), url(https://images.unsplash.com/photo-1584127050037-746c151b9284?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: lato;
+    color: rgb(255, 255, 255);
+    padding-top: 5%;
+
+}
+html{
+    height:100%;
+}
+#content {
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.42),
+                 0px 8px 13px rgba(0, 0, 0, 0.1),
+                 0px 18px 23px rgba(0, 0, 0, 0.1);
+    
+}
+h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+.btn-outline-secondary{
+    background-color:#668F92;
+    color: black;
+}
+hr{
+    width:400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.34);
+
+}
+.card-body{
+    color: black;
+}
+#gallery{
+    padding-top: 10%;
+}
+.card{
+    box-shadow: -1px 15px 30px -12px #668F92;
+    z-index: 9999;
+}
